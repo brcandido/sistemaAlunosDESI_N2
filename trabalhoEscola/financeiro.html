@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro</title>
+    <link rel="stylesheet" href="styles/financeiro.css">
+</head>
+<body onchange="financeiro()">
+    <header class="header">
+        <div class="menu-final">
+            <a href="home.html"><h1>Escola</h1></a>
+            <nav class="nav-menu">
+                <ul>
+                    <a href="dados.html"><li>Dados</li></a>
+                    <a href="financeiro.html" class="selecionado"><li>Financeiro</li></a>
+                    <a href=""><li>Médias</li></a>
+                    <a href="matricula.html"><li>Matrículas</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sombra-tabela">
+        <div class="titulo-tabela">
+            <h3>Financeiro</h3>
+        </div>
+        <table class="tabela-financeiro">
+            <thead>
+                <tr>
+                    <th>Vencimento</th>
+                    <th>Descrição</th>
+                    <th>N° do boleto</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="janeiro" class="linhaMes">
+                    <td id="vencimentoJan">10/01/2020</td>
+                    <td id=descricaoJan>Ensino Fundamental</td>
+                    <td id="numJan">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situJan">Pago</td>
+                </tr>
+                <tr id="fevereiro" class="linhaMes">
+                    <td id="vencimentoFev">10/02/2020</td>
+                    <td id="descricaoFev">Ensino Fundamental</td>
+                    <td id="numFev">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situFev">Pago</td>
+                </tr>
+                <tr id="marco" class="linhaMes">
+                    <td id="vencimentoMar">10/03/2020</td>
+                    <td id="descricaoMar">Ensino Fundamental</td>
+                    <td id="numMar">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situMar">Pago</td>
+                </tr>
+                <tr id="abril" class="linhaMes">
+                    <td id="vencimentoAbr">10/04/2020</td>
+                    <td id="descricaoAbr">Ensino Fundamental</td>
+                    <td id="numAbr">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situAbr">Pago</td>
+                </tr>
+                <tr id="maio" class="linhaMes">
+                    <td id="vencimentoMai">10/05/2020</td>
+                    <td id="descricaoMai">Ensino Fundamental</td>
+                    <td id="numMai">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situMai">Pago</td>
+                </tr>
+                <tr id="junho" class="linhaMes">
+                    <td id="vencimentoJun">10/06/2020</td>
+                    <td id="descricaoJun">Ensino Fundamental</td>
+                    <td id="numJun">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situJun">Pago</td>
+                </tr>
+                <tr id="julho" class="linhaMes">
+                    <td id="vencimentoJul">10/07/2020</td>
+                    <td id="descricaoJul">Ensino Fundamental</td>
+                    <td id="numJul">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situJul">Pago</td>
+                </tr>
+                <tr id="agosto" class="linhaMes">
+                    <td id="vencimentoAgo">10/08/2020</td>
+                    <td id="descricaoAgo">Ensino Fundamental</td>
+                    <td id="numAgo">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situAgo">Atrasado</td>
+                </tr>
+                <tr id="setembro" class="linhaMes">
+                    <td id="vencimentoSet">10/09/2020</td>
+                    <td id="descricaoSet">Ensino Fundamental</td>
+                    <td id="numSet">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situSet">Pendente</td>
+                </tr>
+                <tr id="outubro" class="linhaMes">
+                    <td id="vencimentoOut">10/10/2020</td>
+                    <td id="descricaoOut">Ensino Fundamental</td>
+                    <td id="numOut">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situOut">Pendente</td>
+                </tr>
+                <tr id="novembro" class="linhaMes">
+                    <td id="vencimentoNov">10/11/2020</td>
+                    <td id="descricaoNov">Ensino Fundamental</td>
+                    <td id="numNov">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situNov">Pendente</td>
+                </tr>
+                <tr id="dezembro" class="linhaMes">
+                    <td id="vencimentoDez">10/12/2020</td>
+                    <td id="descricaoDez">Ensino Fundamental</td>
+                    <td id="numDez">48750000001 9 04610002589 6 99960022721 2 09382305799 2</td>
+                    <td id="situDez">Pendente</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts/appalunos.js"></script>
+</body>
+</html>
