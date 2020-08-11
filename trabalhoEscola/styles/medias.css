@@ -94,3 +94,7 @@ body{
     padding: 10px 15px;
     text-align: left;
 }
+
+.nav-menu .selecionado {
+    color: tomato;
+}
