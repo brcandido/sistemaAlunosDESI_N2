@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    top: 0;
+    background: #4b6eb9;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu-final {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu-final h1 {
+    float: left;
+}
+
+.nav-menu {
+    float: right;
+    margin-top: 10px;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: tomato;
+    transition: 0.5s;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px 0 30px 0;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.container p{
+    color: black;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    background: #fff;
+    font-weight: bold;
+}
+
+.materia{
+    margin-top: 20px;
+    font-family: Helvetica;
+}
+
+.sombra-tabela {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 80px;
+}
+
+.titulo-tabela {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.titulo-tabela h3 {
+    margin: 0;
+    color: #626262;
+}
+
+.btn {
+    display: block;
+    padding: 15px 10px;
+    background: #4b6eb9;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
