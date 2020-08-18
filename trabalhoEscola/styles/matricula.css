@@ -110,8 +110,14 @@ a {
 
 .btn:hover {
     cursor: pointer;
+    color: tomato;
 }
 
 .nav-menu .selecionado {
     color: tomato;
+}
+#container-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }

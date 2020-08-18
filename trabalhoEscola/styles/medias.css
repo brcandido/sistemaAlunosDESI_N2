@@ -70,7 +70,7 @@ body{
 }
 
 .tabela-medias {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     border: 2px solid #f8f8f8;
     padding-top: 80px;
@@ -90,9 +90,15 @@ body{
     color:#545454;
 }
 
-.tabela-medias th, .tabela-medias td{
-    padding: 10px 15px;
-    text-align: left;
+.tabela-medias td{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.tabela-medias th{
+    font-size: 15px;
+    padding: 10px 10px;
+    text-align: center;
 }
 
 .nav-menu .selecionado {
